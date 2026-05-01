@@ -1,0 +1,14 @@
+C:\Users\asriva69\CSharpPracticeLinq\bin\Debug\net9.0\CSharpPracticeLinq.exe
+C:\Users\asriva69\CSharpPracticeLinq\bin\Debug\net9.0\CSharpPracticeLinq.deps.json
+C:\Users\asriva69\CSharpPracticeLinq\bin\Debug\net9.0\CSharpPracticeLinq.runtimeconfig.json
+C:\Users\asriva69\CSharpPracticeLinq\bin\Debug\net9.0\CSharpPracticeLinq.dll
+C:\Users\asriva69\CSharpPracticeLinq\bin\Debug\net9.0\CSharpPracticeLinq.pdb
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\CSharpPracticeLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\CSharpPracticeLinq.AssemblyInfoInputs.cache
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\CSharpPracticeLinq.AssemblyInfo.cs
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\CSharpPracticeLinq.csproj.CoreCompileInputs.cache
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\CSharpPracticeLinq.dll
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\refint\CSharpPracticeLinq.dll
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\CSharpPracticeLinq.pdb
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\CSharpPracticeLinq.genruntimeconfig.cache
+C:\Users\asriva69\CSharpPracticeLinq\obj\Debug\net9.0\ref\CSharpPracticeLinq.dll
