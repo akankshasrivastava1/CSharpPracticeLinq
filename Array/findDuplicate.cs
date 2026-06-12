@@ -18,6 +18,27 @@ public class FindDuplicate
     }
 }
 
+//FindFirstDuplicate
+// public class MissingNumber
+// {
+//     public static void Main(string[] args)
+//     {
+//        int[] arr = {2,1,3,5,3,2};
+//        for(int i = 0; i<arr.Length; i++)
+//        {
+//            for(int j = i+1; j<arr.Length; j++)
+//            {
+//                if(arr[i] == arr[j])
+//                {
+//                    Console.WriteLine(arr[i]);
+//                    return;
+//                }
+//            }
+//        }
+
+//     }
+// } output: 2
+
 //using HashSet
 
 // using System;
@@ -62,3 +83,29 @@ public class FindDuplicate
 //             Console.WriteLine("Duplicate: " + d);
 //     }
 // }
+
+// remove duplicate
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int[] arr = {1,2,2,3,4,4,5};
+        int index =1;
+        
+        for(int i=1; i<arr.Length; i++)
+        {
+            if(arr[i] != arr[i-1])
+            {
+                arr[index++] = arr[i];
+            }
+        }
+        for(int i =0; i<index; i++)
+        {
+            Console.WriteLine(arr[i]);
+        }
+    }
+}
+
+// |Statement  |  Effect                  |
+// |break        exits only current loop  |
+// |return       exits entire method      |

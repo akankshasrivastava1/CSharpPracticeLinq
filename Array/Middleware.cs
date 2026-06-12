@@ -1,37 +1,37 @@
 
 
-// public class simpleMiddleware
-// {
-//     private readonly RequestDelegate _next;
+public class simpleMiddleware
+{
+    private readonly RequestDelegate _next;
 
-//     public simpleMiddleware(RequestDelegate next)
-//     {
-//         _next = next;
-//     }
+    public simpleMiddleware(RequestDelegate next)
+    {
+        _next = next;
+    }
 
-//     public async Task InvokeAsync(HttpContent content)
-//     {
-//         Console.Write("Before Request");
+    public async Task InvokeAsync(HttpContent content)
+    {
+        Console.Write("Before Request");
 
-//         await _next(context);
+        await _next(context);
 
-//         Console.Write("After Request");
-//     }
+        Console.Write("After Request");
+    }
 
   
-// }
+}
 
 
-// // var builder = WebApplication.CreateBuilder(args);
-// // var app = builder.Build();
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
 
-// // app.UseMiddleware<SimpleMiddleware>();
+app.UseMiddleware<SimpleMiddleware>();
 
-// // app.MapGet("/", () => "Hello World");
+app.MapGet("/", () => "Hello World");
 
-// // app.Run();
+app.Run();
 
 
-// internal class RequestDelegate
-// {
-// }
+internal class RequestDelegate
+{
+}

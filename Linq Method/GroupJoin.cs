@@ -34,12 +34,13 @@ public class Hello{
             new Departments { DeptId = 2, Name = "HR" }
         };
         
-        var leftJoin = employee.GroupJoin(department,
-        e => e.DeptId, d => d.DeptId, 
-        (e, dgroup) => new {
+        var leftJoin = employee.
+        GroupJoin(department,e => e.DeptId, d => d.DeptId, (e, dgroup) => new {
             EmpId = e.EmpId,
-            DeptName = dgroup.FirstOrDefault()?.Name ?? "Null"
-        }).DefaultIfEmpty();
+            DeptName = dgroup
+        .FirstOrDefault()?.Name ?? "Null"
+        })
+        .DefaultIfEmpty();
         
         foreach(var item in leftJoin)
         {
