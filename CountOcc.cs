@@ -2,6 +2,17 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
+
+public static void PrintElementCounts(List<int> nums)
+{
+   
+}
+
+    public static void Main(string[] args)
+    {
+        var nums = new List<int> { 1, 2, 2, 3, 3, 3, 4 };
+        PrintElementCounts(nums);
+    }
 public class HelloWorld
 {
     public static void Main(string[] args)

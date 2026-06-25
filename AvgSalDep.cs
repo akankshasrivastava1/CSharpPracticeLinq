@@ -17,7 +17,7 @@ public class AvgSalDep
         {
             new Employee {dept = "HR",Salary = 50000 },
             new Employee {dept = "IT", Salary = 60000 },
-            new Employee {dept= "HR", Salary = 45000 },
+            new Employee {dept = "HR", Salary = 45000 },
             new Employee {dept = "IT", Salary = 55000 },
             new Employee {dept = "IT", Salary = 65000 },
             new Employee {dept = "Finance", Salary = 76000},
