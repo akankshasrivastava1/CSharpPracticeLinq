@@ -3,16 +3,23 @@ using System.Linq;
 using System.Collections.Generic;
 
 
-public static void PrintElementCounts(List<int> nums)
+class Program
 {
-   
-}
-
-    public static void Main(string[] args)
+    static void Main()
     {
         var nums = new List<int> { 1, 2, 2, 3, 3, 3, 4 };
-        PrintElementCounts(nums);
+
+        var result = nums
+            .GroupBy(x => x)
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        foreach (var item in result)
+        {
+            Console.WriteLine($"{item.Key} -> {item.Value}");
+        }
     }
+
+}
 public class HelloWorld
 {
     public static void Main(string[] args)
